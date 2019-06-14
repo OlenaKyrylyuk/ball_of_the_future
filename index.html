@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>finaltask</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="form">
+          <div class="form-group">
+                     <div class="sharanswer">
+                
+                <div  class="result" id="result"> 
+                    <div class="answer" id ="answer">
+
+                      </div>
+                    </div>
+
+            </div>
+                <button class="btn btn-primary" id="submit">Запитай мене</button>
+            <div class="questions">
+            <div class="guestion1">
+                <h2>Введіть своє ім'я</h2>
+            <textarea  onkeyup="getName(this)"   name="" id="name" cols="30" rows="5" placeholder="Іван"></textarea>
+            </div>
+            <div class="question2">
+                <h2>Введіть запитання,відповідь на яке може бути тільки так або ні</h2>
+            <textarea onkeyup="getQuestion(this)"  name="" id="question" cols="30" rows="5" placeholder="Чи буде завтра дощ?"></textarea>
+            
+         </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
